@@ -1,0 +1,11 @@
+str = "ungabunga?"
+print(str)
+print( len(str))
+print(type(str) )
+c = int(input("input the string character position number (from 0 to max): "))
+print(str[c])
+a = int(input("input the string character position number (from 0 to max) [minimal]: "))
+b = int(input("input the string character position number (from 0 to max) [maximal]: "))
+print(str[a:b])
+d = int(input("input the multiplier number: "))
+print(str*d)
